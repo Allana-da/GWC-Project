@@ -7,8 +7,12 @@ body {
 
 h1 {
   color: #2d2db4;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
+  border: 3px solid white;
+  padding: 1em;
+  background-color: #f7f7f7;
+  border-radius: 10px;
 }
 p{
   color: #dbdae7;
@@ -18,12 +22,6 @@ p{
 /* STYLE IMAGES */
 
 /* STYLE NAV BAR */
-#myButton {
-  background-color: violet;
-}
-button {
-  background: yellow;
-}
 .container {
  display: grid;
  align-items: center; 
@@ -48,12 +46,7 @@ h2{
   font-size:40px;
   Color: #00423e;
 }
-/*ul{
-  list-style-type: none;
-  background-color: #00423e;
-  overflow: hidden;
-  padding: 1em;
-}*/
+
 a{
   background-color: #00423e;
   color: white;
@@ -61,4 +54,7 @@ a{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+a:hover, a:active {
+  background-color: #02837a;
 }
