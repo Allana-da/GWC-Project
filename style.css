@@ -17,3 +17,9 @@ p{
 /* STYLE IMAGES */
 
 /* STYLE NAV BAR */
+#myButton {
+  background-color: violet;
+}
+button {
+  background: yellow;
+}
