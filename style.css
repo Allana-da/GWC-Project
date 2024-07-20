@@ -11,7 +11,7 @@ h1 {
   text-align: center;
 }
 p{
-  color: #0c0660;
+  color: #dbdae7;
   font-family: Lucida Handwriting;
   font-size: 25px;
 }
@@ -37,10 +37,28 @@ img {
 }
 
 .text {
+  border: 12px double #000000;
+  border-radius: 5px;
+  background-color:black;
+  color: white;
   text-alignment:left;
   font-size: 40px;
 }
 h2{
   font-size:40px;
   Color: #00423e;
+}
+/*ul{
+  list-style-type: none;
+  background-color: #00423e;
+  overflow: hidden;
+  padding: 1em;
+}*/
+a{
+  background-color: #00423e;
+  color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
